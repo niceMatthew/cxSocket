@@ -18,7 +18,17 @@ export enum CxSocketEvents {
 }
 ```
 
+### 安装
+
+```
+npm i cxsocket --save
+```
+
 ### 使用
+
+```
+import { CxSocketCreator } from '@cxyx/foundation/request/dist'
+```
 
 通过 CxSocketCreator 构造函数创建websocket实例，参数参考如下，详细配置可以参考微信api
 ```
